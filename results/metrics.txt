@@ -1,0 +1,14 @@
+
+Heart Disease Classification - Model Results
+============================================
+
+Decision Tree (Default) Accuracy: 0.710
+Decision Tree (Tuned) Accuracy: 0.832
+MLP Accuracy: 0.794
+PCA + MLP Accuracy: 0.832
+
+Best Decision Tree Parameters: {'criterion': 'entropy', 'max_depth': 4, 'min_samples_split': 16}
+
+Notes:
+- MLP tends to generalize better on nonlinear boundaries.
+- PCA improved interpretability and reduced noise.
